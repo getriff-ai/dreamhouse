@@ -1,0 +1,20 @@
+{
+  "id": "market-seattle",
+  "name": "Seattle Metro",
+  "slug": "seattle",
+  "state": "WA",
+  "active": true,
+  "config": {
+    "dataSources": ["county-records", "seed-data"],
+    "scoringWeights": {
+      "location": 25,
+      "budget": 20,
+      "style": 20,
+      "features": 15,
+      "bedsBaths": 10,
+      "sqft": 10
+    },
+    "defaultCenter": [-122.3321, 47.6062],
+    "defaultZoom": 11
+  }
+}
