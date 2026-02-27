@@ -10,7 +10,10 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <main className="hero-gradient flex min-h-[calc(100vh-56px)] flex-col items-center justify-center px-5 pb-20">
-        <SearchHero />
+        <div className="hero-glow" />
+        <div className="relative z-10">
+          <SearchHero />
+        </div>
       </main>
 
       {/* Footer */}
